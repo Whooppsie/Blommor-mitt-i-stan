@@ -1,0 +1,66 @@
+body{
+    background: pink;
+}
+
+  li {
+    color: #666;
+    display: inline;
+  }
+
+  .mainmenu{
+    background: rgb(250, 241, 230);
+    padding: 8px 0;
+    list-style: none; 
+    margin-left: 8px; 
+    padding-left: 8px;
+}
+
+.div-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    position: relative;
+}
+
+.slider-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 8px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: blue;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    -ms-transform: translate(0%, -50%);
+}
+
+.slider-button:hover {
+    color: rgb(176, 225, 169)
+}
+
+@media screen and (min-width: 420px) {
+    body {
+    margin: 2px;
+    }
+}
+
+
+@media screen and (min-width: 794px){
+    body{
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1020px){
+    body{
+        background: rgb(75, 143, 199);
+        margin: 20px;
+        max-width: 90%; 
+    }
+}
