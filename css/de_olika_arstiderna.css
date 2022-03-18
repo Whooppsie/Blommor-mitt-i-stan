@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+}
+
+
+.flex-continer{
+    display: flex;
+}
+
+
+#vinter{
+    max-width: 22%;
+    min-width: 250px;
+}
+
+#vår{
+    max-width: 22%;
+    min-width: 250px;
+}
+
+#sommar{
+    max-width: 22%;
+    min-width: 250px;
+}
+
+#höst{
+    max-width: 22%;
+    min-width: 250px;
+}
