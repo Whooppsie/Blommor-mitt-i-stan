@@ -7,13 +7,32 @@ body{
     display: inline;
   }
 
-  .mainmenu{
-    background: rgb(250, 241, 230);
+.mainmenu{
+    background-color: rgb(250, 241, 230);
     padding: 8px 0;
-    list-style: none; 
     margin-left: 8px; 
-    padding-left: 8px;
+    padding-left: 8px; 
+    overflow: hidden;
 }
+
+.mainmenu a {
+    float: left;
+    color: #292828;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.mainmenu a:hover {
+    background-color: rgb(228, 147, 147);
+    color: black;
+  }
+  
+.mainmenu a.active {
+    background-color: #9ccebc;
+    color: black;
+  }
 
 .div-content {
     margin-left: auto;
@@ -29,7 +48,7 @@ body{
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: blue;
+    color: white;
     background-color: transparent;
     text-align: center;
     cursor: pointer;
