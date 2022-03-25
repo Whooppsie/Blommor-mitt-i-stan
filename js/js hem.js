@@ -1,8 +1,7 @@
-"use strict";
+'use strict';
 
 function myFunction(x) {
-    x.classList.toggle("change");
-  }
+    x.classList.toggle("change"); }
 
 
 var imageCounter = 1;

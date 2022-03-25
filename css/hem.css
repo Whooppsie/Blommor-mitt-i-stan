@@ -1,5 +1,6 @@
 body{
     background: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
   li {
@@ -48,7 +49,7 @@ body{
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: white;
+    color: rgb(60, 207, 15);
     background-color: transparent;
     text-align: center;
     cursor: pointer;
@@ -62,6 +63,14 @@ body{
 .slider-button:hover {
     color: rgb(176, 225, 169)
 }
+
+#rubriker{
+    margin: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 
 @media screen and (min-width: 420px) {
     body {

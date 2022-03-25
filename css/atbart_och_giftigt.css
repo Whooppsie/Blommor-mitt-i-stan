@@ -1,7 +1,11 @@
 body{
     background-color: pink;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.wrapper{
+    border-radius: 25px;
+}
 .mainmenu{
     background-color: rgb(250, 241, 230);
     padding: 8px 0;
@@ -28,3 +32,47 @@ body{
     background-color: #9ccebc;
     color: black;
   }
+
+table{
+    border: 3px double;
+    padding: 10px 20px;
+    margin: 14px;
+    font-size: 16px;
+    background-color: beige;
+    width: 80%;
+
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+}
+.info .infoo{
+    padding: 10p 20px;
+    margin: -2px;
+}
+
+tr:hover {
+    background-color: rgb(233, 169, 194)
+}
+
+@media screen and (min-width: 420px) {
+    body {
+    margin: 2px;
+    }
+}
+
+
+@media screen and (min-width: 794px){
+    body{
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width: 1020px){
+    body{
+        background: rgb(75, 143, 199);
+        margin: 20px;
+        max-width: 90%; 
+    }
+}
