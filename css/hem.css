@@ -1,6 +1,7 @@
 body{
     background: pink;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 3%;
 }
 
   li {
@@ -11,7 +12,6 @@ body{
 .mainmenu{
     background-color: rgb(250, 241, 230);
     padding: 8px 0;
-    margin-left: 8px; 
     padding-left: 8px; 
     overflow: hidden;
 }
@@ -23,6 +23,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.3s;
 }
 
 .mainmenu a:hover {
@@ -64,6 +65,13 @@ body{
     color: rgb(176, 225, 169)
 }
 
+img{
+    width: 70%;
+}
+
+td{
+    padding: 10px;
+}
 #rubriker{
     margin: 25px;
     padding-right: 20px;
@@ -74,21 +82,17 @@ body{
 
 @media screen and (min-width: 420px) {
     body {
-    margin: 2px;
     }
 }
 
 
 @media screen and (min-width: 794px){
     body{
-        margin: 10px;
     }
 }
 
 @media screen and (min-width: 1020px){
     body{
         background: rgb(75, 143, 199);
-        margin: 20px;
-        max-width: 90%; 
     }
 }

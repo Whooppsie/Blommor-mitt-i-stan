@@ -1,6 +1,7 @@
 body{
     background-color: pink;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 3%;
 }
 
 .wrapper{
@@ -8,8 +9,7 @@ body{
 }
 .mainmenu{
     background-color: rgb(250, 241, 230);
-    padding: 8px 0;
-    margin-left: 8px; 
+    padding: 8px 0; 
     padding-left: 8px; 
     overflow: hidden;
 }
@@ -21,6 +21,7 @@ body{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.3s;
 }
 
 .mainmenu a:hover {
@@ -36,11 +37,10 @@ body{
 table{
     border: 3px double;
     padding: 10px 20px;
-    margin: 14px;
     font-size: 16px;
     background-color: beige;
     width: 80%;
-
+    border-radius: 5px;
 }
 
 th,td{
@@ -58,21 +58,17 @@ tr:hover {
 
 @media screen and (min-width: 420px) {
     body {
-    margin: 2px;
     }
 }
 
 
 @media screen and (min-width: 794px){
     body{
-        margin: 10px;
     }
 }
 
 @media screen and (min-width: 1020px){
     body{
         background: rgb(75, 143, 199);
-        margin: 20px;
-        max-width: 90%; 
     }
 }
