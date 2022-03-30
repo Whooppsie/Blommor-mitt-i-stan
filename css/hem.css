@@ -4,7 +4,7 @@ body{
     margin: 3%;
 }
 
-  li {
+li {
     color: #666;
     display: inline;
   }
@@ -14,6 +14,7 @@ body{
     padding: 8px 0;
     padding-left: 8px; 
     overflow: hidden;
+    border-radius: 12px;
 }
 
 .mainmenu a {
@@ -24,6 +25,7 @@ body{
     text-decoration: none;
     font-size: 17px;
     transition: 0.3s;
+    border-radius: 5px;
 }
 
 .mainmenu a:hover {
@@ -46,11 +48,11 @@ body{
 .slider-button {
     border: none;
     display: inline-block;
-    padding: 8px 8px;
+    /*padding: 8px 8px;*/
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
-    color: rgb(60, 207, 15);
+    color:rgb(51, 51, 51);
     background-color: transparent;
     text-align: center;
     cursor: pointer;
@@ -59,10 +61,20 @@ body{
     top: 50%;
     transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%);
+    outline: none;
+
 }
 
 .slider-button:hover {
-    color: rgb(176, 225, 169)
+    color: rgb(163, 163, 163)
+}
+
+.display-left {
+    left: 0%;
+}
+
+.display-right {
+    right: 0%;
 }
 
 img{
