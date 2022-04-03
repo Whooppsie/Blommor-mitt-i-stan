@@ -7,17 +7,18 @@
     <title>Exempel 1 navigation bar</title>
     <meta charset="utf-8" />
     <link href="../css/atbart_och_giftigt.css" rel="stylesheet" type="text/css" />
+    <script defer src="../js/js_ätbart_och_giftigt.js"></script>
 </head>
 
 <body>
     <div class="wrapper">
         <header>
             <div class="mainmenu">
-                <a class="länk" href="index.html">Hem</a>
-                <a class="länk" href="de_olika_arstiderna.html">De olika årstiderna</a>
-                <a class="länk" href="atbart_och_giftigt.html">Ätbart och giftigt</a>
-                <a class="länk" href="tips_pa_parker.html">Tips på parker</a>
-                <a class="länk" href="kontakt_och_feedback.html">Kontakt och feedback</a>
+                <a class="länk" href="../index.html">Hem</a>
+                <a class="länk" href="../html/de_olika_arstiderna.html">De olika årstiderna</a>
+                <a class="länk" href="../html/atbart_och_giftigt.html">Ätbart och giftigt</a>
+                <a class="länk" href="../html/tips_pa_parker.html">Tips på parker</a>
+                <a class="länk" href="../html/kontakt_och_feedback.html">Kontakt och feedback</a>
             </div>
         </header>
     </div>
@@ -26,7 +27,7 @@
     </header>
 
     <div>
-        <h2>Du kanske undrar vad som går att äta men speciellt vad som är giftigt, här får du veta!</h1>
+        <h2>Du kanske undrar vad som går att äta men speciellt vad som är giftigt, här får du veta!</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id erat et elit blandit lobortis
         a a neque. Fusce lacus nisi, vulputate quis vulputate vel, aliquam vitae libero. Sed congue ligula
         quis turpis tincidunt ut ultrices ante feugiat. Sed semper tortor fermentum ligula fringilla
@@ -44,14 +45,38 @@
         </tr>
 
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit corrupti illum in exercitationem provident maiores tenetur harum voluptatum quam nulla vitae accusamus accusantium aliquid fugiat dolore odio iure culpa neque eligendi, omnis at magni expedita? Quod vitae quia odio cupiditate qui delectus ullam harum alias. Provident sequi voluptate accusamus numquam iste pariatur eius reiciendis debitis. Voluptatem, amet asperiores. Sunt nostrum delectus consequuntur dolor quasi nihil totam repellendus eligendi incidunt veritatis quae, doloremque non adipisci omnis nesciunt dolorum porro molestiae.
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
         <td>x</td>
         <td></td>
         <td></td>
         <td>x</td>
         </tr>
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus excepturi, similique qui fugit alias ex unde necessitatibus. Similique soluta, maxime est rem quia omnis. Voluptatibus similique, nesciunt ad id non dolores quod, excepturi libero beatae voluptatem totam suscipit reiciendis ipsum at assumenda quisquam asperiores provident officiis quo repudiandae quia nulla quam quis. Nobis nulla hic voluptate veritatis soluta debitis maxime consequuntur distinctio impedit? Harum nostrum aliquid a voluptatem eius, similique odit deserunt cupiditate maxime ducimus qui numquam laborum. Accusamus.
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
             <td>x</td>
             <td></td>
             <td></td>
@@ -59,28 +84,76 @@
         </tr>
 
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quaerat quidem perspiciatis, fuga deserunt facere eligendi quos ullam molestias tempore blanditiis laudantium consectetur voluptas itaque dolorem reiciendis magni impedit aliquam earum officiis facilis rem rerum in iure. Quam et provident blanditiis id perspiciatis veniam vitae consequuntur modi sapiente similique facere corporis consectetur maiores quasi, magnam earum ut illo nulla quisquam enim fugit quo. Assumenda officiis omnis eos dolores optio illo atque nulla, provident ad? Dolor beatae aliquam animi quae id!
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
         <td>x</td>
         <td></td>
         <td>x</td>
         <td>x</td>
         </tr>
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit corrupti illum in exercitationem provident maiores tenetur harum voluptatum quam nulla vitae accusamus accusantium aliquid fugiat dolore odio iure culpa neque eligendi, omnis at magni expedita? Quod vitae quia odio cupiditate qui delectus ullam harum alias. Provident sequi voluptate accusamus numquam iste pariatur eius reiciendis debitis. Voluptatem, amet asperiores. Sunt nostrum delectus consequuntur dolor quasi nihil totam repellendus eligendi incidunt veritatis quae, doloremque non adipisci omnis nesciunt dolorum porro molestiae.
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
         <td>x</td>
         <td>x</td>
         <td>x</td>
         <td>x</td>
         </tr>
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit corrupti illum in exercitationem provident maiores tenetur harum voluptatum quam nulla vitae accusamus accusantium aliquid fugiat dolore odio iure culpa neque eligendi, omnis at magni expedita? Quod vitae quia odio cupiditate qui delectus ullam harum alias. Provident sequi voluptate accusamus numquam iste pariatur eius reiciendis debitis. Voluptatem, amet asperiores. Sunt nostrum delectus consequuntur dolor quasi nihil totam repellendus eligendi incidunt veritatis quae, doloremque non adipisci omnis nesciunt dolorum porro molestiae.
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
         <td>x</td>
         <td>x</td>
         <td></td>
         <td>x</td>
         </tr>
         <tr>
-        <td>blabala</td>
+        <td>
+            <button class="button" data-modal-target="#modal">blabala</button>
+                <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title">blabala</div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit impedit corrupti illum in exercitationem provident maiores tenetur harum voluptatum quam nulla vitae accusamus accusantium aliquid fugiat dolore odio iure culpa neque eligendi, omnis at magni expedita? Quod vitae quia odio cupiditate qui delectus ullam harum alias. Provident sequi voluptate accusamus numquam iste pariatur eius reiciendis debitis. Voluptatem, amet asperiores. Sunt nostrum delectus consequuntur dolor quasi nihil totam repellendus eligendi incidunt veritatis quae, doloremque non adipisci omnis nesciunt dolorum porro molestiae.
+                </div>
+            </div>
+            <div id="overlay"></div>
+        </td>
         <td></td>
         <td></td>
         <td>x</td>
