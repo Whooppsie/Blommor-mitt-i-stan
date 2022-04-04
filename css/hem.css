@@ -53,7 +53,7 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 46px;
+    font-size: 40px;
     background-color: beige;
     padding: 10px 15px;
     border-radius: 7px;
@@ -118,7 +118,7 @@ td{
     }
 
     .centered {
-        font-size: 18px;
+        font-size: 16px;
         padding: 4px 8px;
     }
 
@@ -139,7 +139,7 @@ td{
     }
 
     .centered{
-        font-size: 25px;
+        font-size: 23px;
         padding: 9px 14px;
     }
 
