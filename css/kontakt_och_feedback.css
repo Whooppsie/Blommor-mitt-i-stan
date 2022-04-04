@@ -42,6 +42,17 @@ body{
   border: thin;
   padding: 5px;
   border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#email{
+  margin-bottom: 5px;
+}
+
+.fraga{
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 
 #feedback{
@@ -117,4 +128,27 @@ body{
 #overlay.active{
   opacity: 1;
   pointer-events: all;
+}
+
+@media screen and (max-width: 420px) {
+  #feedback{
+  max-width: 95%;
+  }
+
+  .input{
+    margin-top: 5px;
+  }
+
+  #lname {
+    margin-bottom: 15px;
+  }
+
+  .fraga{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .label{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
 }
