@@ -113,10 +113,6 @@ td{
 }
 
 @media screen and (max-width: 420px) {
-    body{
-        background: white;
-    }
-
     .div-content {
         max-width: 100%;
     }
@@ -138,10 +134,6 @@ td{
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
-    body{
-        background: green;
-    }
-
     .div-content {
         max-width: 90%;
     }
@@ -163,10 +155,6 @@ td{
 }
 
 @media screen and (min-width: 794px) and (max-width: 1020px){
-    body{
-        background: red;
-    }
-
     .div-content {
         max-width: 95%;
     }
@@ -178,7 +166,4 @@ td{
 }
 
 @media screen and (min-width: 1020px){
-    body{
-        background: rgb(75, 143, 199);
-    }
 }

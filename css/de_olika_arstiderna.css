@@ -45,25 +45,25 @@ h2 {
 }
 
 .vinter{
-    max-width: 24%;
+    max-width: 23%;
     min-width: 250px;
     padding: 8px;
 }
 
 .vår{
-    max-width: 24%;
+    max-width: 23%;
     min-width: 250px;
     padding: 8px;
 }
 
 .sommar{
-    max-width: 24%;
+    max-width: 23%;
     min-width: 250px;
     padding: 8px;
 }
 
 .höst{
-    max-width: 24%;
+    max-width: 23%;
     min-width: 250px;
     padding: 8px;
 }
@@ -91,19 +91,27 @@ h2 {
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
-    body{
-        background: green;
+    .vinter {
+        padding: 8px;
+    }
+    
+    .vår {
+        padding: 8px;
+    }
+
+    .sommar {
+        padding: 8px;
+    }
+    
+    .höst{
+        padding: 8px;
     }
 }
 
 @media screen and (min-width: 794px) and (max-width: 1020px){
-    body{
-        background: red;
-    }
+    
 }
 
 @media screen and (min-width: 1020px){
-    body{
-        background: rgb(75, 143, 199);
-    }
+    
 }

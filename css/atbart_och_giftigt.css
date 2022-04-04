@@ -131,33 +131,40 @@ tr:hover {
 
 
 @media screen and (max-width: 420px) {
-    body{
-        background: black;
+    h2{
+        font-size: 20px;
+    }
+    table{
+        padding: 5px 10px;
+        font-size: 14px;
+        width: 100%;
+        border-radius: 3px;
+    }
+    
+    th,td{
+        padding: 7px;
+        text-align: center;
+    }
+    .info .infoo{
+        padding: 5px 10px;
+    }
+
+    .button{
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
-    body{
-        background: green;
-    }
-
     table{
         width: 100%;
     }
 }
 
 @media screen and (min-width: 794px) and (max-width: 1020px){
-    body{
-        background: red;
-    }
-
     table{
         width: 90%;
     }
 }
 
 @media screen and (min-width: 1020px){
-    body{
-        background: rgb(75, 143, 199);
-    }
 }
