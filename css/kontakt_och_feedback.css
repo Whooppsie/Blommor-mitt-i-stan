@@ -38,10 +38,6 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.label{
-  padding-bottom: 10px;
-}
-
 .input{
   border: thin;
   padding: 5px;
@@ -72,7 +68,7 @@ body{
   border: 1px solid black;
   border-radius: 10px;
   z-index: 10;
-  background-color: aquamarine;
+  background-color: #ffdeeb;
   width: 450px;
   max-width: 70%;
 }

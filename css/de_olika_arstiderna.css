@@ -39,48 +39,71 @@ body{
     flex-wrap: wrap;
 }
 
+h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
 
-#vinter{
-    max-width: 22%;
+.vinter{
+    max-width: 24%;
     min-width: 250px;
     padding: 8px;
 }
 
-#vår{
-    max-width: 22%;
+.vår{
+    max-width: 24%;
     min-width: 250px;
     padding: 8px;
 }
 
-#sommar{
-    max-width: 22%;
+.sommar{
+    max-width: 24%;
     min-width: 250px;
     padding: 8px;
 }
 
-#höst{
-    max-width: 22%;
+.höst{
+    max-width: 24%;
     min-width: 250px;
     padding: 8px;
 }
 
+@media screen and (max-width: 420px) {
+    .vinter {
+        max-width: 95%;
+        padding: 8px;
+    }
+    
+    .vår {
+        max-width: 95%;
+        padding: 8px;
+    }
 
-@media screen and (min-width: 420px) {
-    body {
-        margin: 3%;
+    .sommar {
+        max-width: 95%;
+        padding: 8px;
+    }
+    
+    .höst{
+        max-width: 95%;
+        padding: 8px;
     }
 }
 
-
-@media screen and (min-width: 794px){
+@media screen and (min-width: 420px) and (max-width: 794px){
     body{
-        margin: 3%;
+        background: green;
+    }
+}
+
+@media screen and (min-width: 794px) and (max-width: 1020px){
+    body{
+        background: red;
     }
 }
 
 @media screen and (min-width: 1020px){
     body{
         background: rgb(75, 143, 199);
-        margin: 3%;
     }
 }
