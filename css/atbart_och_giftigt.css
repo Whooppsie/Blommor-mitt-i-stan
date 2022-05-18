@@ -136,7 +136,7 @@ tr:hover {
 
 @media screen and (max-width: 420px) {
     h2{
-        font-size: 20px;
+        font-size: 18px;
     }
     table{
         padding: 5px 10px;
@@ -156,16 +156,22 @@ tr:hover {
     .button{
         font-size: 14px;
     }
+
+    body{
+      background-color: rgb(255, 206, 214);
+  }
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
     table{
         width: 100%;
+        background-color: rgb(255, 227, 232);
     }
 }
 
 @media screen and (min-width: 794px) and (max-width: 1020px){
     table{
         width: 90%;
+        background-color: rgb(250, 241, 230);
     }
 }
