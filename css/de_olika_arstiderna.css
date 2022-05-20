@@ -42,6 +42,9 @@ body{
 
 h1{
     text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 h2 {
@@ -107,6 +110,9 @@ p{
     body{
         background-color: rgb(255, 206, 214);
     }
+    h1{
+        font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
@@ -125,12 +131,9 @@ p{
     .höst{
         padding: 8px;
     }
+
+    h1{
+        font-size: 40px;
+      }
 }
 
-@media screen and (min-width: 794px) and (max-width: 1020px){
-    
-}
-
-@media screen and (min-width: 1020px){
-    
-}

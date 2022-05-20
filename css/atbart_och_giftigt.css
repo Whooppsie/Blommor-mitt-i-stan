@@ -36,6 +36,9 @@ body{
 
 h1{
     text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 table{
@@ -160,12 +163,20 @@ tr:hover {
     body{
       background-color: rgb(255, 206, 214);
   }
+
+    h1 {
+      font-size: 32px;
+    }
 }
 
 @media screen and (min-width: 420px) and (max-width: 794px){
     table{
         width: 100%;
         background-color: rgb(255, 227, 232);
+    }
+
+    h1{
+      font-size: 40px;
     }
 }
 

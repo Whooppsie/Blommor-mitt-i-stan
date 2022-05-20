@@ -63,6 +63,9 @@ li {
 
 .title1{
     opacity: 1;
+    font-family: 'Parisienne', cursive;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 
@@ -126,6 +129,9 @@ li {
         background-color: rgb(255, 206, 214);
     }
 
+    .title1{
+        font-size: 30px;
+    }
     
 }
 
@@ -137,6 +143,9 @@ li {
     .centered{
         font-size: 23px;
         padding: 9px 14px;
+    }
+    .title1{
+        font-size: 40px;
     }
 }
 
