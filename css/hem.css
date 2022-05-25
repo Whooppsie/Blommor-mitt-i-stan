@@ -5,6 +5,10 @@ body{
     font-size: 15px;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+}
 li {
     color: #666;
     display: inline;

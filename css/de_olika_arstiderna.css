@@ -5,6 +5,10 @@ body{
     font-size: 15px;
 }
 
+img{
+    height: 100%;
+    width: 100%;
+}
 .mainmenu{
     background-color: rgb(250, 241, 230);
     padding: 8px 0;
