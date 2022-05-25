@@ -5,8 +5,8 @@ body{
     font-size: 15px;
 }
 img{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 .mainmenu{
     background-color: rgb(250, 241, 230);
